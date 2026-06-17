@@ -20,6 +20,9 @@ import pl.tim24v6.trackyoursleepquality.ui.theme.TrackYourSleepQualityTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+//        val state by viewModel.uiState.collectAsStateWithLifecycle()
+
         setContent {
             TrackYourSleepQualityTheme {
                 // A surface container using the 'background' color from the theme
